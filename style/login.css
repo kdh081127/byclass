@@ -1,0 +1,123 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    background: linear-gradient(to bottom, rgb(34, 113, 250), rgb(30, 232, 255), rgb(147, 255, 185));
+    /* 글자 그라데이션은 구글검색 활용 */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#id{
+    align-items: center;
+    justify-content: center;
+    text-align: match-parent;
+    display: grid;
+    margin: 20px auto;
+}
+
+#password{
+    align-items: center;
+    justify-content: center;
+    text-align: match-parent;
+    display: grid;
+    margin: 20px auto;
+}
+
+
+#id h3{
+    margin: 2px;
+    
+}
+
+#id input{
+    width: 210px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0.1px 0.1px 5px 0.1px gray;
+}
+
+
+
+#password h3{
+    margin: 2px;
+}
+
+#password input{
+    width: 210px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0.1px 0.1px 5px 0.1px gray;
+    margin-bottom: 10px;
+    padding: 20px auto;
+}
+
+.login>button{
+    background: linear-gradient(to left, rgb(62, 203, 132), rgb(1, 255, 119));
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    margin: 15px auto;
+    display: block;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+
+#guest>a{
+    text-decoration: none;
+    background: linear-gradient(to bottom, skyblue, lightgreen);
+    /* 글자 그라데이션은 구글검색 활용 */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 17   px;
+    font-weight: 700;
+    font: "맑은 고딕";  
+    margin: 1px auto;
+    display: block;
+    text-align: center;
+}
+
+#register>a{
+    text-decoration: none;
+    background: linear-gradient(to bottom, skyblue, lightgreen);
+    /* 글자 그라데이션은 구글검색 활용 */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 17   px;
+    font-weight: 700;
+    font: "맑은 고딕";  
+    margin: 2px auto;
+    display: block;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    text-wrap: nowrap;
+    justify-content: center;
+    margin: 150px;
+}
+
