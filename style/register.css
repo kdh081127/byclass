@@ -102,11 +102,11 @@ header h1 {
 }
 
 
-footer{
-    display: flex;
-    text-align: center;
-    text-wrap: nowrap;
-    justify-content: center;
-    margin: 150px;
+img{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: table;
+    border-radius: 50%;
 }
 
